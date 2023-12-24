@@ -123,9 +123,10 @@ a {
 }
 
 .form-element__base {
-  padding: 0 24px;
+  padding: 0 20px;
   margin-top: 4px;
   font-size: 1rem;
+  font-weight: 600;
   color: var(--form-text);
   border: none;
   border-radius: 16px;
@@ -137,6 +138,15 @@ a {
 
 .form-element__input {
   height: 68px;
+}
+
+.form-element__select {
+  height: 68px;
+  appearance: none;
+  background-image: url('../images/Expand_down.svg');
+  background-repeat: no-repeat;
+  background-position: right 1.25rem center;
+  background-size: 1.5em 1.5em;
 }
 
 .form-element__textarea {
