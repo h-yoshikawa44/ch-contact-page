@@ -8,14 +8,14 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://h-yoshikawa44.github.io/ch-contact-page/">
+    <a href="https://h-yoshikawa44.github.io/ch-contact-page/">
       Demo
     </a>
-    <span> | </span> -->
-    <!-- <a href="">
+    <span> | </span>
+    <a href="https://devchallenges.io/solution/4854">
       Solution
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <a href="https://devchallenges.io/challenge/31">
       Challenge
     </a>
@@ -29,6 +29,7 @@
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
   - [Desktop](#desktop)
+  - [Tablet](#tablet)
   - [Mobile](#mobile)
   - [Built With](#built-with)
 - [Features](#features)
@@ -43,11 +44,15 @@
 
 ### Desktop
 
-（スクショを貼る）
+![overview - desktop](./screenshots/desktop.png)
+
+### Tablet
+
+![overview - tablet](./screenshots/tablet.png)
 
 ### Mobile
 
-（スクショを貼る）
+<img src="./screenshots/mobile.png" alt="overview - mobile" width="50%">
 
 ### Built With
 
@@ -70,13 +75,13 @@ Other major libraries
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenge/31) was to build an application to complete the given user stories.
 
-- [ ] Create a contact page that matches the given design.
-- [ ] Use HTML to create the basic structure.
-- [ ] Add icon, heading, description, form, input, dropdown, button,.. according to the design.
-- [ ] Inputs should have placeholders.
-- [ ] Dropdown should have at least 2 options, it's up to you which more options to add but the default must be same as in the design.
-- [ ] Use CSS or CSS frameworks to style the card.
-- [ ] The page should be responsive on different screen sizes.
+- [x] Create a contact page that matches the given design.
+- [x] Use HTML to create the basic structure.
+- [x] Add icon, heading, description, form, input, dropdown, button,.. according to the design.
+- [x] Inputs should have placeholders.
+- [x] Dropdown should have at least 2 options, it's up to you which more options to add but the default must be same as in the design.
+- [x] Use CSS or CSS frameworks to style the card.
+- [x] The page should be responsive on different screen sizes.
 
 ## How To Use
 
@@ -99,13 +104,18 @@ npm run dev
 
 ## learned/improved
 
-（後で書く）
+- Reviewed how to specify a background image.
+- I encountered an incompatibility between the textarea element and formatting by Prettier.
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-（後で書く）
+- [MDN - background](https://developer.mozilla.org/ja/docs/Web/CSS/background)
+- [MDN - 背景画像の拡大縮小](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_backgrounds_and_borders/Resizing_background_images)
+- [MDN - textarea 要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element/textarea)
+- [select要素のアイコンを変更する方法](https://sabigara.com/posts/change-select-marker)
+- [CSS変数による配色はcontrastとrgbも用意したら捗るぞ](https://zenn.dev/rdlabo/articles/1e80620bf432e4eb09f6)
 
 ## Contact
 
