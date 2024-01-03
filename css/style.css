@@ -80,11 +80,23 @@ a {
   }
 }
 
+@media (width > 1280px) {
+  .header {
+    padding: 20px 64px 32px;
+  }
+}
+
 /* main
 -------------------- */
 
 .main {
   padding-bottom: 80px;
+}
+
+@media (width > 1280px) {
+  .main {
+    padding-bottom: 92px;
+  }
 }
 
 .hero-header {
@@ -104,12 +116,26 @@ a {
 .hero-header__message {
   font-size: 3rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 .hero-header__message-description {
   margin-top: 16px;
   font-size: 1.125rem;
+}
+
+@media (width > 1280px) {
+  .hero-header__container {
+    max-width: 624px;
+  }
+
+  .hero-header__message {
+    font-size: 4rem;
+  }
+
+  .hero-header__message-description {
+    font-size: 2rem;
+  }
 }
 
 .contact-form {
@@ -130,6 +156,13 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 16px;
+  }
+}
+
+@media (width > 1280px) {
+  .contact-form {
+    max-width: 800px;
+    margin: 0 auto;
   }
 }
 
