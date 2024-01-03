@@ -45,7 +45,11 @@
         </div>
       </header>
       <div class="container">
-        <form class="contact-form" action="">
+        <form
+          class="contact-form"
+          action=""
+          onsubmit="alert('dummy submit.'); return false;"
+        >
           <div class="contact-form__line">
             <label class="form-element"
               ><span class="form-element__label">Name</span
@@ -101,7 +105,9 @@
             <textarea
               class="form-element__base form-element__textarea"
               name="message"
-            ></textarea>
+            >
+50-100 employees
+            </textarea>
           </label>
           <button class="form-element__submit" type="submit">
             Contact Sales
