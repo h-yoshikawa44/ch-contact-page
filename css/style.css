@@ -147,6 +147,12 @@ a {
   border-radius: 20px;
 }
 
+.contact-form__line {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+}
+
 @media (width > 1024px) {
   .contact-form {
     padding: 32px;
