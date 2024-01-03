@@ -83,7 +83,7 @@ a {
 
 @media (width > 1280px) {
   .header {
-    padding: 20px 64px 32px;
+    padding: 20px 64px 24px;
   }
 }
 
@@ -103,7 +103,7 @@ a {
 .hero-header {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 16px;
   padding-bottom: 72px;
   color: var(--text);
   text-align: center;
