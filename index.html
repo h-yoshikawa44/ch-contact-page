@@ -11,11 +11,110 @@
       content="devChallenges.io - Contact Page | by h-yoshikawa44"
     />
     <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app">
-      <h1>Vite App</h1>
-    </div>
+    <header class="header">
+      <h1>
+        <img
+          src="./images/contact-form-icon.svg"
+          alt="Becv Logo"
+          width="99"
+          height="30"
+          decoding="async"
+        />
+      </h1>
+    </header>
+    <main class="main">
+      <header class="hero-header">
+        <div class="hero-header__container">
+          <b class="hero-header__message"
+            >Interested in our business pricing?</b
+          >
+          <p class="hero-header__message-description">
+            Fill out the form to view details and we’ll contact you as soon as
+            possible.
+          </p>
+        </div>
+      </header>
+      <div class="container">
+        <form
+          class="contact-form"
+          action=""
+          onsubmit="alert('dummy submit.'); return false;"
+        >
+          <div class="contact-form__line">
+            <label class="form-element"
+              ><span class="form-element__label">Name</span
+              ><input
+                class="form-element__base form-element__input"
+                type="text"
+                name="name"
+                placeholder="Ethan Johnson"
+                autocomplete="name"
+                required
+            /></label>
+            <label class="form-element"
+              ><span class="form-element__label">Company Email</span
+              ><input
+                class="form-element__base form-element__input"
+                type="text"
+                name="company-email"
+                placeholder="ethan@johnson.com"
+                autocomplete="email"
+                required
+            /></label>
+          </div>
+          <div class="contact-form__line">
+            <label class="form-element"
+              ><span class="form-element__label">Company Size</span
+              ><select
+                class="form-element__base form-element__select"
+                name="company-size"
+              >
+                <option value="50-100-employees" selected>
+                  50-100 employees
+                </option>
+                <option value="100-300-employees">100-300 employees</option>
+              </select></label
+            >
+            <label class="form-element"
+              ><span class="form-element__label">Subject</span
+              ><select
+                class="form-element__base form-element__select"
+                name="subject"
+              >
+                <option value="building-landing-pages" selected>
+                  Building Landing pages
+                </option>
+                <option value="building-web-service">
+                  Building Web Service
+                </option>
+              </select></label
+            >
+          </div>
+          <label class="form-element"
+            ><span class="form-element__label">Message</span>
+            <textarea
+              class="form-element__base form-element__textarea"
+              name="message"
+            >
+50-100 employees
+            </textarea>
+          </label>
+          <button class="form-element__submit" type="submit">
+            Contact Sales
+          </button>
+        </form>
+      </div>
+    </main>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>
