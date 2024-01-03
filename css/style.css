@@ -44,7 +44,7 @@ a {
 
 .container {
   max-width: 640px;
-  padding: 0 4%;
+  padding: 0 3.75%;
   margin: 0 auto;
 }
 
@@ -57,6 +57,7 @@ a {
 @media (width > 1024px) {
   .container {
     max-width: 1024px;
+    padding: 0 3.5%;
   }
 }
 
@@ -71,6 +72,12 @@ a {
 
 .header {
   padding: 20px;
+}
+
+@media (width > 1024px) {
+  .header {
+    padding: 20px 28px;
+  }
 }
 
 /* main
@@ -112,6 +119,18 @@ a {
   padding: 32px 32px 112px;
   background-color: rgb(248 250 252 / 30%);
   border-radius: 20px;
+}
+
+@media (width > 1024px) {
+  .contact-form {
+    padding: 32px;
+  }
+
+  .contact-form__line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+  }
 }
 
 .form-element {

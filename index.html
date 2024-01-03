@@ -46,50 +46,56 @@
       </header>
       <div class="container">
         <form class="contact-form" action="">
-          <label class="form-element"
-            ><span class="form-element__label">Name</span
-            ><input
-              class="form-element__base form-element__input"
-              type="text"
-              name="name"
-              placeholder="Ethan Johnson"
-              autocomplete="name"
-              required
-          /></label>
-          <label class="form-element"
-            ><span class="form-element__label">Company Email</span
-            ><input
-              class="form-element__base form-element__input"
-              type="text"
-              name="company-email"
-              placeholder="ethan@johnson.com"
-              autocomplete="email"
-              required
-          /></label>
-          <label class="form-element"
-            ><span class="form-element__label">Company Size</span
-            ><select
-              class="form-element__base form-element__select"
-              name="company-size"
+          <div class="contact-form__line">
+            <label class="form-element"
+              ><span class="form-element__label">Name</span
+              ><input
+                class="form-element__base form-element__input"
+                type="text"
+                name="name"
+                placeholder="Ethan Johnson"
+                autocomplete="name"
+                required
+            /></label>
+            <label class="form-element"
+              ><span class="form-element__label">Company Email</span
+              ><input
+                class="form-element__base form-element__input"
+                type="text"
+                name="company-email"
+                placeholder="ethan@johnson.com"
+                autocomplete="email"
+                required
+            /></label>
+          </div>
+          <div class="contact-form__line">
+            <label class="form-element"
+              ><span class="form-element__label">Company Size</span
+              ><select
+                class="form-element__base form-element__select"
+                name="company-size"
+              >
+                <option value="50-100-employees" selected>
+                  50-100 employees
+                </option>
+                <option value="100-300-employees">100-300 employees</option>
+              </select></label
             >
-              <option value="50-100-employees" selected>
-                50-100 employees
-              </option>
-              <option value="100-300-employees">100-300 employees</option>
-            </select></label
-          >
-          <label class="form-element"
-            ><span class="form-element__label">Subject</span
-            ><select
-              class="form-element__base form-element__select"
-              name="subject"
+            <label class="form-element"
+              ><span class="form-element__label">Subject</span
+              ><select
+                class="form-element__base form-element__select"
+                name="subject"
+              >
+                <option value="building-landing-pages" selected>
+                  Building Landing pages
+                </option>
+                <option value="building-web-service">
+                  Building Web Service
+                </option>
+              </select></label
             >
-              <option value="building-landing-pages" selected>
-                Building Landing pages
-              </option>
-              <option value="building-web-service">Building Web Service</option>
-            </select></label
-          >
+          </div>
           <label class="form-element"
             ><span class="form-element__label">Message</span>
             <textarea
