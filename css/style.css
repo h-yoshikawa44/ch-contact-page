@@ -27,11 +27,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--font-base);
+  background-image: url('../images/bg-image.svg');
+  background-position: center;
+  background-size: cover;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../images/bg-image.svg');
-  background-size: cover;
 }
 
 a {
