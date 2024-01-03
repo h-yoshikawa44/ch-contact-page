@@ -5,6 +5,7 @@
   --black: #111729;
   --light-gray: #cdd5e0;
   --white2: #f8fafc;
+  --white2-rgb: 248 250 252;
   --white: #fff;
   --navy: #4036a9;
 
@@ -13,6 +14,7 @@
   --form-text: var(--black);
   --form-submit-text: var(--navy);
   --form-ele-background: var(--white2);
+  --form-ele-background-rgb: var(--white2-rgb);
   --form-placeholder: var(--light-gray);
 
   /* font */
@@ -168,4 +170,9 @@ a {
   background-color: var(--form-ele-background);
   border: none;
   border-radius: 16px;
+}
+
+.form-element__submit:hover,
+.form-element__submit:focus {
+  background-color: rgb(var(--form-ele-background-rgb) / 90%);
 }
