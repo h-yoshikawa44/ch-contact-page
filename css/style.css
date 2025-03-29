@@ -18,8 +18,8 @@
   --form-placeholder: var(--light-gray);
 
   /* font */
-  --font-base: 'Be Vietnam Pro', inter, system-ui, avenir, helvetica, arial,
-    sans-serif;
+  --font-base:
+    'Be Vietnam Pro', inter, system-ui, avenir, helvetica, arial, sans-serif;
 }
 
 html,
