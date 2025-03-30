@@ -49,20 +49,20 @@ a {
   margin: 0 auto;
 }
 
-@media (width > 768px) {
+@media (width >= 768px) {
   .container {
     max-width: 768px;
   }
 }
 
-@media (width > 1024px) {
+@media (width >= 1024px) {
   .container {
     max-width: 1024px;
     padding: 0 3.5%;
   }
 }
 
-@media (width > 1280px) {
+@media (width >= 1280px) {
   .container {
     max-width: 1280px;
   }
@@ -75,13 +75,13 @@ a {
   padding: 20px;
 }
 
-@media (width > 1024px) {
+@media (width >=1024px) {
   .header {
     padding: 20px 28px;
   }
 }
 
-@media (width > 1280px) {
+@media (width >=1280px) {
   .header {
     padding: 20px 64px 24px;
   }
@@ -94,7 +94,7 @@ a {
   padding-bottom: 80px;
 }
 
-@media (width > 1280px) {
+@media (width >=1280px) {
   .main {
     padding-bottom: 92px;
   }
@@ -125,7 +125,7 @@ a {
   font-size: 1.125rem;
 }
 
-@media (width > 1280px) {
+@media (width >=1280px) {
   .hero-header__container {
     max-width: 624px;
   }
@@ -154,7 +154,7 @@ a {
   row-gap: 24px;
 }
 
-@media (width > 1024px) {
+@media (width >=1024px) {
   .contact-form {
     padding: 32px;
   }
@@ -166,7 +166,7 @@ a {
   }
 }
 
-@media (width > 1280px) {
+@media (width >=1280px) {
   .contact-form {
     max-width: 800px;
     margin: 0 auto;
